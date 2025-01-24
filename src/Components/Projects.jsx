@@ -10,13 +10,44 @@ function Projects() {
             <hr className=' bg-black h-1 opacity-70 rounded-lg ' style={{width:'4%', marginTop:'0.2%'}} />
            
           </div>
-          <div className=' flex flex-col justify-around' style={{marginTop:'5%'}}>
-            {/*Project 1*/}
-            <div className=' flex flex-row w-full justify-center ' style={{}} >
-              <a href='https://github.com/Hazem0012/Tic-Tac-Toe' target='_blank' rel="noopener noreferrer" style={{width: '30%'}}>
-                  <img className=' transition transform hover:scale-125 delay-0 ease-in-out duration-75' style={{  width:'100%'}} src='https://cdn3.iconfinder.com/data/icons/brain-games/1042/Tic-Tac-Toe-Game.png'/>  
+          <div className=' flex flex-col justify-around' style={{marginTop:'5%', marginLeft: '6.5%'}}>
+
+             {/*Project 1*/}
+             <div className=' flex flex-row w-full justify-center ' style={{}} >
+              <a href='https://drive.google.com/file/d/15aYz0xzCJjqRbDMmEUaaOGyJLNWoe88d/view?usp=sharing' target='_blank' rel="noopener noreferrer" style={{width: '28%'}}>
+                  <img className=' transition transform hover:scale-125 delay-0 ease-in-out duration-75' style={{  width:'100%'}} src='https://cdn-icons-png.freepik.com/512/1461/1461141.png'/>  
               </a>
               <div className=' w-1/2 flex-col' style={{marginLeft:'5%'}}>
+              <a href='https://drive.google.com/file/d/15aYz0xzCJjqRbDMmEUaaOGyJLNWoe88d/view?usp=sharing' target='_blank' rel="noopener noreferrer" className=' text-center items-center justify-center flex'>
+                  <p className=' text-4xl font-bold text-black text-center w-fit transition transform hover:scale-110 hover:text-cyan-500 ease-in-out duration-75' style={{paddingTop:'15%'}}>
+                    Face Emotion Recognition
+                  </p>
+                </a>
+                <p className=' text-lg text-gray-500'style={{marginTop:'5%', paddingLeft:'20%', paddingRight:'15%'}}>
+                In this project, I trained the ResNet50 model on the RAF-DB dataset to recognize emotions across 7 categories, hitting an 81% accuracy. 
+                I used techniques like data augmentation, dropout, and regularization to make sure the model performed well and didn’t overfit.
+                 I also built a real-time emotion detection app in Python, combining the trained model with Haar Cascade for face detection. 
+                 This project was a great chance for me to apply machine learning in a hands-on way, and I’m excited to share the results!
+                </p>
+                <div style={{marginTop:'2%',paddingLeft:'20%', paddingRight:'15%'}}>
+                  <p className='font-semibold text-black text-xl' >
+                    Tech Stack
+                  </p>
+                  <div className=' flex flex-row justify-start w-full'>
+                    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/2048px-Python_logo_01.svg.png' className=' w-1/12 transition transform hover:scale-125 delay-0 ease-in-out duration-75' style={{marginTop:'1%'}} />
+                    <img src="https://images.seeklogo.com/logo-png/39/2/tensorflow-logo-png_seeklogo-394548.png" alt="TensorFlow Logo" className=' w-1/12 transition transform hover:scale-125 delay-0 ease-in-out duration-75'style={{marginTop:'1%', marginLeft:'1%'}}/>
+                    <img src="https://research.shu.ac.uk/aces/guardians/opencv_logo.png" alt="OpenCV" className=' w-1/12 transition transform hover:scale-125 delay-0 ease-in-out duration-75'style={{marginTop:'1%', marginLeft:'1%'}}/>
+                    <img src="https://img.icons8.com/?size=512&id=aR9CXyMagKIS&format=png" alt="Numpy Logo" className=' w-1/12 transition transform hover:scale-125 delay-0 ease-in-out duration-75'style={{marginTop:'1%', marginLeft:'1%'}}/>
+                  </div> 
+                </div>
+              </div>
+            </div>
+
+
+            {/*Project 2*/}
+            <div className=' flex flex-row w-full justify-center ' style={{marginTop:'5%'}} >
+              
+              <div className=' w-1/2 flex-col' style={{marginLeft:'-15%'}}>
               <a href='https://github.com/Hazem0012/Tic-Tac-Toe' target='_blank' rel="noopener noreferrer" className=' text-center items-center justify-center flex'>
                   <p className=' text-4xl font-bold text-black text-center w-fit transition transform hover:scale-110 hover:text-cyan-500 ease-in-out duration-75' style={{paddingTop:'15%'}}>
                     Tic Tac Toe Game
@@ -30,19 +61,24 @@ function Projects() {
                 </p>
                 <div style={{marginTop:'2%',paddingLeft:'20%', paddingRight:'15%'}}>
                   <p className='font-semibold text-black text-xl' >
-                    Languages Used
+                    Tech Stack
                   </p>
                   <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/2048px-Python_logo_01.svg.png' className=' w-1/12 transition transform hover:scale-125 delay-0 ease-in-out duration-75' style={{marginTop:'1%'}} />
                 </div>
               </div>
+              
+              <a href='https://github.com/Hazem0012/Tic-Tac-Toe' target='_blank' rel="noopener noreferrer" style={{width: '30%', marginLeft:'4%'}}>
+                  <img className=' transition transform hover:scale-125 delay-0 ease-in-out duration-75' style={{  width:'100%'}} src='https://cdn3.iconfinder.com/data/icons/brain-games/1042/Tic-Tac-Toe-Game.png'/>  
+              </a>
             </div>
-            {/*Project 2*/}
+
+            {/*Project 3*/}
             <div className=' flex flex-row w-full justify-center ' style={{}} >
-            <a href='https://github.com/Hazem0012/Weather-App' target='_blank' rel="noopener noreferrer"  style={{  width:'30%'}}>
+            <a href='https://hazem0012.github.io/Weather-App/' target='_blank' rel="noopener noreferrer"  style={{  width:'30%'}}>
                 <img className=' transition transform hover:scale-125 delay-0 ease-in-out duration-75' style={{  width:'100%'}} src='https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png'/>  
             </a>
               <div className=' w-1/2 flex-col' style={{marginLeft:'5%'}}>
-                <a href='https://github.com/Hazem0012/Weather-App' target='_blank' rel="noopener noreferrer" className=' text-center items-center justify-center flex' >
+                <a href='https://hazem0012.github.io/Weather-App/' target='_blank' rel="noopener noreferrer" className=' text-center items-center justify-center flex' >
                   <p className=' text-4xl font-bold text-black text-center w-fit transition transform hover:scale-110 hover:text-cyan-500 ease-in-out duration-75' style={{paddingTop:'15%'}}>
                     Weather App
                   </p>
@@ -55,7 +91,7 @@ function Projects() {
 
                 <div style={{marginTop:'2%',paddingLeft:'20%', paddingRight:'15%'}}>
                   <p className='font-semibold text-black text-xl' >
-                    Languages Used
+                    Tech Stack
                   </p>
                   <div className=' flex flex-row justify-start'>
                     <img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' className=' w-1/12 transition transform hover:scale-125 delay-0 ease-in-out duration-75' style={{marginTop:'1%'}} />

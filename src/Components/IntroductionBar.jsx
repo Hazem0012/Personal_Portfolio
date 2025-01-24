@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 function IntroductionBar() {
   return (
     <div  className=' w-full snap-always snap-center ' style={{height: '90vh'}}>
-      <div className=' flex flex-row justify-around items-center' style={{ marginTop:'8%', paddingLeft:'15%', paddingRight:'15%'}}>
+      <div className=' flex flex-row justify-around items-center' style={{ marginTop:'10%', paddingLeft:'15%', paddingRight:'15%'}}>
         <p className=' text-5xl text-cyan-500 font-bold' style={{width:'60%'}}>
         <TypeAnimation
         sequence={[
