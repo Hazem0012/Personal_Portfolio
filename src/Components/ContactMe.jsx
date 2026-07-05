@@ -42,15 +42,15 @@ function ContactMe() {
         <div className=' w-1/3 '> 
           <p className='text-3xl text-cyan-500 font-bold' style={{marginBottom:'3%'}}>Contact Me</p>
       
-          <p className='text-md ' style={{marginBottom:'5%'}}>I am currently in my last year of study seeking opportunities. Please do not hesitate to reach 
+          <p className='text-md ' style={{marginBottom:'5%'}}> Please do not hesitate to reach 
           out to discuss future opportunities or even to just say hi! I will do my best to get back to you in time</p>
 
           <div className=' flex flex-row justify-around items-center'>
             <a href='https://github.com/Hazem0012' target='_blank' rel="noopener noreferrer" className='w-full' style={{width:'13%' ,height:'13%'}} >
-            <img src='https://cdn-icons-png.flaticon.com/512/25/25231.png' alt='Github'  className=' cursor-pointer'/>
+            <img src='https://cdn-icons-png.flaticon.com/512/25/25231.png' alt='Github'  className=' cursor-pointer transition transform hover:scale-125 delay-0 ease-in-out duration-75'/>
             </a>
-            <a href='https://www.linkedin.com/in/hazem-alsagheer/' target='_blank ' rel="noopener noreferrer" style={{width:'18%'}}  className='w-full'>
-              <img src='https://static.vecteezy.com/system/resources/previews/023/986/970/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png' alt='LinkedIn' className=' cursor-pointer'/>
+            <a href='https://www.linkedin.com/in/hazem-alsagheer/' target='_blank ' rel="noopener noreferrer" style={{width:'18%'}}  className='w-full '>
+              <img src='https://static.vecteezy.com/system/resources/previews/023/986/970/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png' alt='LinkedIn' className=' cursor-pointer transition transform hover:scale-125 delay-0 ease-in-out duration-75'/>
             </a>
           </div>
 
@@ -59,16 +59,16 @@ function ContactMe() {
 
         <div className=' w-1/3 h-1/2 '>
         <form className='flex flex-col justify-center h-full ' ref={form} onSubmit={sendEmail}>
-          <label htmlFor='subject' style={{marginTop:'5%', marginBottom: '2%'}} > Name </label>
-          <input type="text" name="user_name" placeholder=' Jeremy ' required  className=' px-3 border-2 border-cyan-500 rounded-lg py-1'/>
+          <label htmlFor='subject' style={{marginTop:'5%', marginBottom: '1%'}}className=' font-semibold' > Name </label>
+          <input type="text" name="user_name" placeholder=' Jeremy ' required  className=' px-[1%] border-2 border-cyan-500 rounded-lg py-[1%]'/>
 
 
-          <label htmlFor='email' style={{marginTop:'5%', marginBottom: '2%'}} > Email</label>
-          <input type="email"name="user_email" placeholder=' jeremy@gmail.com' required  className=' px-2 border-2 border-cyan-500 rounded-lg py-1'/>
+          <label htmlFor='email' style={{marginTop:'5%', marginBottom: '1%'}} className=' font-semibold'> Email</label>
+          <input type="email"name="user_email" placeholder=' jeremy@gmail.com' required  className=' px-[1%] border-2 border-cyan-500 rounded-lg py-[1%]'/>
 
 
-          <label htmlFor='message' style={{marginTop:'5%', marginBottom: '2%'}} > Message</label>
-          <textarea type="text" name="message" placeholder=' type your message in here ...' required className=' border-2 border-cyan-500 rounded-lg h-1/2 px-2'/>
+          <label htmlFor='message' style={{marginTop:'5%', marginBottom: '1%'}} className=' font-semibold' > Message</label>
+          <textarea type="text" name="message" placeholder=' type your message in here ...' required className=' border-2 border-cyan-500 rounded-lg h-1/2 px-[1%] py-[1%]'/>
 
           <button type="submit" value="Send"  className=' transition ease-in-out duration-75 rounded-full font-medium bg-cyan-500 text-gray-700 hover:bg-cyan-600 cursor-pointer p-2 my-8 text-lg w-11/12 items-center ' style={{marginLeft: '4.3%'}} >
             Submit
