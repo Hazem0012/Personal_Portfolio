@@ -22,10 +22,6 @@ This project is a responsive portfolio site designed to present:
 
 ## Getting Started
 
-### Prerequisites
-
-Make sure you have Node.js and npm installed on your machine.
-
 ### Installation
 
 `
